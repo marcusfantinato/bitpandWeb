@@ -9,12 +9,19 @@ This framework is developed using Cucumber + Junit + Selenium WebDriver.
 The ChromeDriver version used is ChromeDriver 88.0.4324.96. Please in case your Chrome browser has different from Version 88, download the corresponding version here: https://chromedriver.chromium.org/downloads
 
 Structure:
+
 ChromeDriver: src/test/resources/drivers/chromedriver.exe
+
 Page Factory: src/test/java/pageFactory
+
 Step Definition: src/test/java/stepDefinition
+
 Features: src/test/resources/features
+
 Hooks: src/test/java/stepDefinition/Hooks.java
+
 Runner: src/test/java/stepDefinition/TestRunner.java
+
 Report: target/HtmlReports
 
 How to run:
