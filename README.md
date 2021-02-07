@@ -1,4 +1,4 @@
-# bitpandWeb
+# bitpandaWeb
 
 This is repository of basic Cucumber + Selenium WebDriver testing framework.
 
