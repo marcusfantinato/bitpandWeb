@@ -6,7 +6,7 @@ The Web application used for the example is - http://automationpractice.com/inde
 
 This framework is developed using Cucumber + Junit + Selenium WebDriver.
 
-The ChromeDriver version used is ChromeDriver 88.0.4324.96. Please in case your Chrome browser has different from Version 88, download the corresponding version here: https://chromedriver.chromium.org/downloads
+The ChromeDriver version used is ChromeDriver 88.0.4324.96. Please in case your Chrome browser has different from Version 88, download the corresponding version here: https://chromedriver.chromium.org/downloads and replace it in src/test/resources/drivers/
 
 Structure:
 
