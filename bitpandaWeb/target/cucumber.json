@@ -1,0 +1,82 @@
+[
+  {
+    "line": 1,
+    "elements": [
+      {
+        "start_timestamp": "2021-02-06T15:28:15.322Z",
+        "before": [
+          {
+            "result": {
+              "duration": 2064311900,
+              "status": "passed"
+            },
+            "match": {
+              "location": "stepDefinition.Hooks.browserSetup()"
+            }
+          }
+        ],
+        "line": 3,
+        "name": "Search for products using different criteria",
+        "description": "",
+        "id": "searching-for-products;search-for-products-using-different-criteria",
+        "after": [
+          {
+            "result": {
+              "duration": 615754500,
+              "status": "passed"
+            },
+            "match": {
+              "location": "stepDefinition.Hooks.teardown()"
+            }
+          }
+        ],
+        "type": "scenario",
+        "keyword": "Scenario",
+        "steps": [
+          {
+            "result": {
+              "duration": 3847399800,
+              "status": "passed"
+            },
+            "line": 4,
+            "name": "the customer is in the main page and wants to search for new t shirt",
+            "match": {
+              "location": "stepDefinition.SearchingForProductsSteps.the_customer_is_in_the_main_page_and_wants_to_search_for_new_t_shirt()"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 1401254000,
+              "status": "passed"
+            },
+            "line": 5,
+            "name": "the customer select T shirt category, size S, Cotton, In Stock and New",
+            "match": {
+              "location": "stepDefinition.SearchingForProductsSteps.the_customer_select_t_shirt_category_size_s_cotton_in_stock_and_new()"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 22939800,
+              "status": "passed"
+            },
+            "line": 6,
+            "name": "the website shows the Faded Short Sleeve T-shirts",
+            "match": {
+              "location": "stepDefinition.SearchingForProductsSteps.the_website_shows_the_faded_short_sleeve_t_shirts()"
+            },
+            "keyword": "Then "
+          }
+        ]
+      }
+    ],
+    "name": "Searching for Products",
+    "description": "",
+    "id": "searching-for-products",
+    "keyword": "Feature",
+    "uri": "file:src/test/resources/features/searchingForProducts.feature",
+    "tags": []
+  }
+]
